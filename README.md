@@ -4,6 +4,7 @@ This resource for ESX adds a simple taxing system that taxes players based on ba
 
 ## Requirements
 esx_billing
+esx_society
 
 
 ## Installation
@@ -12,5 +13,5 @@ esx_billing
 - Add this in your server.cfg :
 
 ```
-ensure esx_kingofthehill
+ensure esx_tax
 ```
