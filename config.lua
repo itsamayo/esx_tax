@@ -1,5 +1,7 @@
 Config = {}
 
+-- Where to send Taxes? Default is Police safe!
+Config.WheretoSendTaxes = 'society_police'
 -- Bank Tax Brackets
 Config.HoboClassLimit  =  0
 Config.PoorClassLimit  =  50000
