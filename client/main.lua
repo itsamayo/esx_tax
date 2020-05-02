@@ -20,5 +20,5 @@ end)
 
 RegisterNetEvent('tax:sendTax')
 AddEventHandler('tax:sendTax', function(source, type, amount)
-  TriggerServerEvent('esx_billing:sendBill', source, 'society_police', type, amount)
+  TriggerServerEvent('esx_billing:sendBill', source, Config.WheretoSendTaxes, type, amount)
 end)

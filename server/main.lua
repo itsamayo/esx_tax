@@ -2,7 +2,7 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-function GetUsersForTax(d, h, m)
+function GetUsersForTax()
     MySQL.ready(function()        
         MySQL.Async.fetchAll('SELECT * FROM users',{},function(AllUser)
             RunTax(AllUser)
